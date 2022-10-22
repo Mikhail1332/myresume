@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Моя визитка</title>
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="info">
+        <img class ="photo" src="photo.jpeg" alt="photo_profile">
+        <div class="info_text">
+        <h1>Пенюков Михаил</h1>
+        <p>Люблю бег,читать профессиональную литературу,учиться <em>FRONTEND-разработке</em>:)</p>
+        <div class="socials">
+            <h2>Cоциальные сети:</h2>
+            <a href="https://telegram.me/mihailpenyukov" target="_blank">Telegram</a>
+        </div>
+    </div>
+        </div>
+        <div class="card bg-burlywood">
+        <h2>Мои навыки</h2>
+        <ol class="list">
+            <li>Работа в команде</li>
+            <li>Размещение сайта на хостинге</li>
+            <li>Структура HTML</li>
+            <li>CSS свойства</li>
+            <li>Работа с Git</li>
+        </ol>
+    </div>
+    <div class="card bg-red">
+        <h2>Портфолио</h2>
+        <p>Уже скоро я прокачаюсь и стану крутым разработчиком😎</p>
+    </div>
+    <div class="card">
+        
+        <form class="form">
+            <h3>Связаться со мной</h3>
+            <div class="form-row">
+            
+            <div class="form-group">
+        <label for="name">Ваше имя</label>
+        <input type="text"  id="name" placeholder="Введите имя">
+            </div>    
+        
+            <div class="form-group">
+        <label for="email">Ваш email</label>
+        <input type="email"  id="email" placeholder="Введите email">
+            </div>
+        </div>
+            <div class="form-group">
+        <label for="message">Ваше сообщение</label>
+        <textarea style="resize: none" id="message" cols="30" rows="15" placeholder="Введите сообщение"></textarea>
+            </div>
+            
+            
+            <input class ="btn" type="submit" value="Отправить">
+        
+        </form>
+        </div>
+    
+    </div>
+    </body>
+</html>
