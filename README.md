@@ -1,2 +1,2 @@
-# myresume
-Only HTML &amp; CSS
+# Моё резюме, составленное на базовых знаний HTML &  CSS
+
